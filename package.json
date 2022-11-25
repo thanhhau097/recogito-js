@@ -4,6 +4,7 @@
   "description": "A JavaScript library for text annotation",
   "main": "dist/recogito.min.js",
   "scripts": {
+    "prepare": "./build.sh",
     "start": "webpack serve --open --mode=development",
     "build": "webpack --mode=production",
     "build-polyfills": "webpack --mode=production --config webpack.polyfills.js"
